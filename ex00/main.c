@@ -10,11 +10,18 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/* RETIRAR DEPOS PLMDS*/
+	#include <stdlib.h>
+/* RETIRAR DEPOS PLMDS*/
+
+
 void	rush(int x, int y); 
 
-int	main(void)
+int	main(int argc, char *argv[])
 {
-	rush (5, 3);
+	/*	CORRIGIR DEPOIS */
+		rush (atoi(argv[1]), atoi(argv[2]));
+	/*	CORRIGIR DEPOIS */
 	return (0);
 }
 
